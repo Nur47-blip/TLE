@@ -277,9 +277,9 @@ class Codeforces(commands.Cog):
         - For help with each of the commands you can type ;help <command> (e.g. ;help gitgudders)
         
         Point distribution:
-        delta  | -300 | -200 | -100 |  0  | +100 | +200 | +300 | +400 | +500 | +600 | +700
-        no tags|   2  |   3  |   5  |  8  |  12  |  17  |  23  |  30  |  38  |  47  |  57
-        tags   |   2  |   2  |   2  |  3  |   5  |   8  |  12  |  17  |  23  |  30  |  38
+        delta  | -300 | -200 | -100 |  0  | +100 | +200 | +300 | +400
+        no tags|   2  |   3  |   5  |  8  |  12  |  17  |  23  |  30 
+        tags   |   2  |   2  |   2  |  3  |   5  |   8  |  12  |  17
         """
         handle, = await cf_common.resolve_handles(ctx, self.converter, ('!' + str(ctx.author),))
         user = cf_common.user_db.fetch_cf_user(handle)
