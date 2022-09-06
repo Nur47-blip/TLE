@@ -623,8 +623,8 @@ class Handles(commands.Cog):
             if score > 0:
                 handle = cf_common.user_db.get_handle(user_id, ctx.guild.id)
                 user = cf_common.user_db.fetch_cf_user(handle)
-                if user is None:
-                    continue
+                # if user is None:
+                #     continue
                 rating = user.rating
                 
                 discord_handle = ""
