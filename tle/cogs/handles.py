@@ -515,7 +515,7 @@ class Handles(commands.Cog):
             lines += failed
         return discord_common.embed_success('\n'.join(lines))
 
-    @commands.command(brief="Show gudgitters", aliases=["gitgudders"], usage="[div1|div2|div3] [+all]")
+    @commands.command(brief="Show gudgitters", aliases=["gitgudders","gg"], usage="[div1|div2|div3] [+all]")
     async def gudgitters(self, ctx, *args):
         """Show the list of users of gitgud with their scores."""
         res = cf_common.user_db.get_gudgitters()
@@ -572,7 +572,7 @@ class Handles(commands.Cog):
                     if self.dlo <= change.ratingUpdateTimeSeconds < self.dhi]
         return rating_changes
 
-    @commands.command(brief="Show gudgitters of the month", aliases=["monthlygitgudders","monthlygg"], usage="[div1|div2|div3] [d=mmyyyy] [+all]")
+    @commands.command(brief="Show gudgitters of the month", aliases=["monthlygitgudders","monthlygg","mgg"], usage="[div1|div2|div3] [d=mmyyyy] [+all]")
     async def monthlygudgitters(self, ctx, *args):
         """Show the list of users of gitgud with their scores."""
         

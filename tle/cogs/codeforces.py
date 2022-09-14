@@ -70,8 +70,8 @@ class Codeforces(commands.Cog):
         - Type ;upsolve <nr> for choosing the problem <nr> as gitgud problem (only possible if you have no active gitgud challenge)
         - After solving the problem you can claim gitgud points for it with ;gotgud
         - If you can't solve the problem for 1 hours you can skip it with ;nogud
-        - The all-time ranklist can be found with ;gitgudders
-        - A monthly ranklist is shown when you type ;monthlygitgudders
+        - The all-time ranklist can be found with ;gitgudders or ;gg
+        - A monthly ranklist is shown when you type ;monthlygitgudders or ;mgg
         - Another way to gather gitgud points is ;gitgud (only works if you have no active gitgud-Challenge)
         - For help with each of the commands you can type ;help <command> (e.g. ;help gitgudders)
         
@@ -271,8 +271,8 @@ class Codeforces(commands.Cog):
         - It is also possible to request problems with a certain tag now but you get less points for it: ;gitgud <delta> [+tags...] [~tags...]
         - After solving the problem you can claim gitgud points for it with ;gotgud
         - If you can't solve the problem for 1 hours you can skip it with ;nogud
-        - The all-time ranklist can be found with ;gitgudders
-        - A monthly ranklist is shown when you type ;monthlygitgudders
+        - The all-time ranklist can be found with ;gitgudders or ;gg
+        - A monthly ranklist is shown when you type ;monthlygitgudders or ;mgg
         - Another way to gather gitgud points is ;upsolve (only works if you have no active gitgud-Challenge)
         - For help with each of the commands you can type ;help <command> (e.g. ;help gitgudders)
         
